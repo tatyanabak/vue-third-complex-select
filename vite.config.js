@@ -6,8 +6,9 @@ import vuetify from 'vite-plugin-vuetify'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
+	base: '/vue-third-complex-select/',
+	plugins: [
 		vue(),
 		vuetify({ autoImport: true }),
-	],
+	]
 })
